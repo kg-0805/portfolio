@@ -1,0 +1,39 @@
+.socialinks {
+    display: flex;
+   justify-content: space-between;
+   /* width: 350px; /
+   / margin: 32px 0 64px -8px; */
+
+}
+
+.socialinks a {
+ padding: 12px;
+ border-radius: 12px;
+ display: flex;
+}
+
+.socialinks a:hover {
+ transition: .2s ease-in;
+ background: #1b1b27;
+}
+
+.navt {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.navt-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.navt-link:focus,
+.navt-link:hover {
+    text-decoration: none;
+}
+.navt-link.disabled {
+    color: inherit;
+    pointer-events: none;
+    cursor: default;
+}
