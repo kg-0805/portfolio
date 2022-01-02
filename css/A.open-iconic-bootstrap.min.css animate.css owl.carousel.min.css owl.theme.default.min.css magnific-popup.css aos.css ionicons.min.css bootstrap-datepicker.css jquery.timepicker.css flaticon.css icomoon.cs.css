@@ -37,7 +37,7 @@
   font-style: normal
 }
 
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 
 .animated {
   -webkit-animation-duration: 1s;
@@ -7119,7 +7119,7 @@ textarea.form-control {
 
 .block-27 ul li a,
 .block-27 ul li span {
-  text-align: center;
+  text-align: left;
   display: inline-block;
   width: 40px;
   height: 40px;
