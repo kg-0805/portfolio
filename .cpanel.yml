@@ -1,6 +1,22 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/user/public_html/
+ - export DEPLOYPATH=/home/amanmitt/guptakartik.in/
+ - /bin/cp css $DEPLOYPATH
+ - /bin/cp fonts $DEPLOYPATH
+ - /bin/cp img $DEPLOYPATH
+ - /bin/cp js $DEPLOYPATH
+ - /bin/cp scss $DEPLOYPATH
+ - /bin/cp work.html $DEPLOYPATH
+ - /bin/cp welcome.html $DEPLOYPATH
+ - /bin/cp testimonials.html $DEPLOYPATH
+ - /bin/cp services.html $DEPLOYPATH
+ - /bin/cp resume.html $DEPLOYPATH
  - /bin/cp index.html $DEPLOYPATH
- - /bin/cp style.css $DEPLOYPATH
+ - /bin/cp contact.html $DEPLOYPATH
+ - /bin/cp about.html $DEPLOYPATH
+ - /bin/cp gulpfile.js $DEPLOYPATH
+ - /bin/cp .htaccess $DEPLOYPATH
+ - /bin/cp koala-config.json $DEPLOYPATH
+ - /bin/cp mail.php $DEPLOYPATH
+ - /bin/cp package.json $DEPLOYPATH
